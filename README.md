@@ -25,11 +25,13 @@ Quick Setup
 1. Follow all the above steps
 2. `GET /interval_schedules/` will list all the schedule intervals
 3. `POST /interval_schedules/` will add a schedule interval
+    
     ##### POST Data (Example)
     - every: 90
     - period: seconds
 4. `GET /periodic_tasks/` will list all the periodic tasks
 5. `POST /periodic_tasks/` will add a new task 
+    
     ##### POST Data (Example)
     - name: 'API Task'
     - task: 'app.add'
